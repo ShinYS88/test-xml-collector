@@ -1,0 +1,30 @@
+{
+	"setting":{
+		"openPath" : "data",
+		"saveFilePath" : "D:/test/incomming",
+		"saveFileName" : "test.sql",
+		"tableName" : "test",
+		"outputQuery" : "false"
+	},
+	"seed": {
+		"content": "content"
+	},
+	"field": {
+		"unique_key": "getId",
+		"parent_key": "getParentId",
+		"author": "item/front/author",
+		"book_no": "item/front/volumeNo",
+		"pub_date": "item/front/publicationDate",
+		"doc_type": "item/front/docType",
+		"CLASSA": "level1/title",
+		"CLASSB": "level2/title",
+		"CLASSC": "level3/title"
+	},
+	"addField": {
+		"title" : "title",
+		"CLASSINFO" : "classInfo",
+		"all_text" : "allText",
+		"type":"getType"
+	}
+}
+
